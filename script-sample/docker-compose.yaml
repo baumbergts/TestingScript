@@ -1,0 +1,12 @@
+version: "3.5"
+
+services:
+  script-service:
+    image: sebastiao/script:v1
+    container_name: teste
+    restart: "no"
+    volumes:
+      - ./input:/input
+      - ./output:/output
+    environment:
+      FILE_NAME: example.csv

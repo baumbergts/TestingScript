@@ -1,0 +1,4 @@
+Column names are name, department, birthday month
+	John Smith works in the Accounting department, and was born in November.
+	Erica Meyers works in the IT department, and was born in March.
+Processed 3 lines.
